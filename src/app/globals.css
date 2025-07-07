@@ -117,9 +117,8 @@
     min-height: 100%;
     margin: 0;
     padding: 0;
-    /* full‑screen linear gradient */
     background: linear-gradient(133deg, rgb(41, 40, 52) 70%, #cad390 30%);
-    color: #4e545f;  /* light grey base */
+    color: #4e545f;
     font-family: var(--font-sans);
   }
   * {
@@ -132,17 +131,16 @@
 
 @layer utilities {
   .bg-card {
-    background-color: #cad390 !important;  /* slate‑800 */
+    background-color: #cad390 !important;
   }
   .text-card-foreground {
-    color: #000000 !important;              /* slate‑100 */
+    color: #000000 !important;
   }
   .animate-fadeInUp {
     animation: fadeInUp 0.6s ease-out both;
   }
 }
 
-/* 3) Keyframes for fade‑in‑up */
 @keyframes fadeInUp {
   0% {
     opacity: 0;

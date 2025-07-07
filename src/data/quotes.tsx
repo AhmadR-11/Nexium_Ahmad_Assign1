@@ -1,5 +1,3 @@
-// src/data/quotes.ts
-
 export interface Quote {
   id: number;
   text: string;
@@ -310,7 +308,6 @@ export const quotesData: Quote[] = [
   }
 ];
 
-// Utility functions for quote management
 export const getRandomQuotes = (count: number = 3): Quote[] => {
   const shuffled = [...quotesData].sort(() => 0.5 - Math.random());
   return shuffled.slice(0, count);
@@ -330,7 +327,6 @@ export const getQuotesByTopic = (topic: string, count: number = 3): Quote[] => {
     return getRandomQuotes(count);
   }
   
-  // Shuffle and return requested count
   const shuffled = filteredQuotes.sort(() => 0.5 - Math.random());
   return shuffled.slice(0, count);
 };

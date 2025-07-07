@@ -1,4 +1,3 @@
-// src/app/layout.tsx
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
@@ -25,7 +24,6 @@ export default function RootLayout({
       suppressHydrationWarning={true}
       className={inter.variable}
     >
-      {/* Required for Next to inject metadata, scripts, etc. */}
       <head />
       <body className="font-sans">
         {children}

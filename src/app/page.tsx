@@ -49,7 +49,6 @@ export default function QuoteGenerator() {
   return (
     <div className="min-h-screen p-4">
       <div className="max-w-4xl mx-auto">
-        {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-5xl font-bold mb-2 flex items-center justify-center gap-2 text-zinc-100">
             <Quote className="h-9 w-8 text-indigo-500" /> Quote Generator
@@ -57,7 +56,6 @@ export default function QuoteGenerator() {
           <p className="text-yellow-100">Get inspired with motivational quotes based on your topic</p>
         </div>
 
-        {/* Form Card */}
         <Card className="mb-8">
           <CardHeader>
             <CardTitle>Generate Quotes</CardTitle>
@@ -109,7 +107,6 @@ export default function QuoteGenerator() {
           </CardContent>
         </Card>
 
-        {/* Quotes Grid */}
         {quotes.length > 0 ? (
           <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {quotes.map((q) => (
@@ -134,7 +131,6 @@ export default function QuoteGenerator() {
             ))}
           </div>
         ) : (
-          /* Empty state */
           !isLoading && (
             <Card className="text-center py-12">
               <CardContent>

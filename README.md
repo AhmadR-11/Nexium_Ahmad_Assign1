@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Quote Generator
 
-## Getting Started
+A modern, responsive Quote Generator app built with [Next.js](https://nextjs.org/), [shadcn/ui](https://ui.shadcn.com/), [Tailwind CSS](https://tailwindcss.com/), and TypeScript. Enter any topic and instantly get an inspiring quote related to it!
 
-First, run the development server:
+## 🚀 Live Demo
+
+Try it out: [https://quote-generator-two-tau.vercel.app/](https://quote-generator-two-tau.vercel.app/)
+
+---
+
+## ✨ Features
+
+- 🔎 **Topic-based Quotes:** Enter any topic and generate a relevant quote.
+- ⚡ **Fast & Responsive:** Built with Next.js and optimized for all devices.
+- 🎨 **Modern UI:** Styled with shadcn/ui and Tailwind CSS for a clean look.
+- 🛡️ **TypeScript:** Type-safe codebase for reliability.
+- ☁️ **Deployed on Vercel:** Instant global access.
+
+---
+
+## 🖼️ Screenshots
+
+<!-- Add your screenshots here if available -->
+![App Screenshot](public/app.png)
+![1 Generated Example](public/example.png)
+![2 Generated Example](public/generated.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 🧑‍💻 Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/AhmadR-11/Nexium_Ahmad_Assign1.git
+cd Nexium_Ahmad_Assign1
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📝 Usage
 
-## Learn More
+1. Enter a topic in the input field.
+2. Click the **Generate Quote** button.
+3. View the generated quote below.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Folder Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+/app           # Main Next.js app directory
+/components    # Reusable UI components
+/styles        # Tailwind and global styles
+/public        # Static assets
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Made with ❤️ by Ahmad Raza 💗. Hope you like it. Don`t forget to make it star ⭐️
